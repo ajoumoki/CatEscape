@@ -26,7 +26,7 @@ public class ArrowController : MonoBehaviour
         float d = dir.magnitude;
         float r1 = 0.5f;
         float r2 = 1.0f; //23번줄부터 28번줄까지 충돌 판정
-        if (d < r1 + r2)
+        if (d < r1 + r2) //만약 충돌 시
         {
             GameObject director = GameObject.Find("GameDirector");
             director.GetComponent<GameDirector>().DecreaseHp();
