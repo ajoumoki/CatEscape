@@ -9,7 +9,7 @@ public class ArrowController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.player = GameObject.Find("player");
+        this.player = GameObject.Find("player"); //게임오브젝트 플레이어(player) 찾기
     }
 
     // Update is called once per frame
