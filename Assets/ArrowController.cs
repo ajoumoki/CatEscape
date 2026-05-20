@@ -15,7 +15,7 @@ public class ArrowController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, -0.2f, 0);
+        transform.Translate(0, -0.2f, 0); //화살표 아래로 낙하
         if (transform.position.y < -7.0f)
         {
             Destroy(gameObject);
