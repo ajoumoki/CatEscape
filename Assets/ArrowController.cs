@@ -18,7 +18,7 @@ public class ArrowController : MonoBehaviour
         transform.Translate(0, -0.2f, 0); //화살표 아래로 낙하
         if (transform.position.y < -7.0f) //만약 화살표의 y좌표 위치가 -7 미만이면
         {
-            Destroy(gameObject);
+            Destroy(gameObject); //게임오브젝트 삭제
         }
         Vector2 p1 = transform.position;
         Vector2 p2 = this.player.transform.position;
