@@ -18,7 +18,7 @@ public class ArrowGenerator : MonoBehaviour
     void Update()
     {
         this.delta += Time.deltaTime; //delta값에 시간 더하기
-        if (this.delta > this.span)
+        if (this.delta > this.span) //시간이 0,3초보다 크면
         {
             this.delta = 0;
             GameObject go = Instantiate(arrowPrefab);
