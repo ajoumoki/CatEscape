@@ -6,7 +6,7 @@ using UnityEngine;
 public class ArrowGenerator : MonoBehaviour
 {
     public GameObject arrowPrefab;
-    float span = 0.3f;
+    float span = 0.3f; 
     float delta = 0;
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,7 @@ public class ArrowGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.delta += Time.deltaTime;
+        this.delta += Time.deltaTime; //delta값에 시간 더하기
         if (this.delta > this.span)
         {
             this.delta = 0;
