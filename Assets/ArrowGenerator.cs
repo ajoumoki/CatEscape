@@ -22,8 +22,8 @@ public class ArrowGenerator : MonoBehaviour
         {
             this.delta = 0; //시간 초기화
             GameObject go = Instantiate(arrowPrefab); //arrow의 prefab 생성
-            int px = Random.Range(-9, 10);
-            go.transform.position = new Vector3(px, 7, 0);
+            int px = Random.Range(-9, 10); //px값을 랜덤으로 지정
+            go.transform.position = new Vector3(px, 7, 0); //arrow prefab의 x를 px값으로 지정(y값은 7)
         }
     }
 }
