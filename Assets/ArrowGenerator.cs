@@ -21,7 +21,7 @@ public class ArrowGenerator : MonoBehaviour
         if (this.delta > this.span) //시간이 0,3초보다 크면
         {
             this.delta = 0; //시간 초기화
-            GameObject go = Instantiate(arrowPrefab);
+            GameObject go = Instantiate(arrowPrefab); //arrow의 prefab 생성
             int px = Random.Range(-9, 10);
             go.transform.position = new Vector3(px, 7, 0);
         }
