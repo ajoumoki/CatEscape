@@ -20,7 +20,7 @@ public class ArrowGenerator : MonoBehaviour
         this.delta += Time.deltaTime; //delta값에 시간 더하기
         if (this.delta > this.span) //시간이 0,3초보다 크면
         {
-            this.delta = 0;
+            this.delta = 0; //시간 초기화
             GameObject go = Instantiate(arrowPrefab);
             int px = Random.Range(-9, 10);
             go.transform.position = new Vector3(px, 7, 0);
