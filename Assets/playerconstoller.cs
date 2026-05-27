@@ -11,7 +11,7 @@ public class playerconstoller : MonoBehaviour
     }
     public void LbuttonDown()
     {
-        transform.Translate(-2, 0, 0);
+        transform.Translate(-2, 0, 0); //x좌표 -2만큼 이동
     }
     public void RbuttonDown()
     {
