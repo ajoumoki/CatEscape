@@ -10,7 +10,7 @@ public class GameDirector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.hpGauge = GameObject.Find("hpGauge");
+        this.hpGauge = GameObject.Find("hpGauge"); //게임오브젝트 hpGauge찾기
        
     }
     public void DecreaseHp()
