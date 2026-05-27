@@ -15,7 +15,7 @@ public class GameDirector : MonoBehaviour
     }
     public void DecreaseHp()
     {
-        this.hpGauge.GetComponent<Image>().fillAmount -= 0.1f;
+        this.hpGauge.GetComponent<Image>().fillAmount -= 0.1f; //hpGauge 이미지 fillAmount값 -0.1 감소
     }
 
     // Update is called once per frame
