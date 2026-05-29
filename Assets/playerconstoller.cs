@@ -27,7 +27,7 @@ public class playerconstoller : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.RightArrow)) //오른쪽 화살표 키를 눌렀을 때
         {
-            transform.Translate(0.3f, 0, 0);
+            transform.Translate(0.3f, 0, 0); //x좌표 0.3이동
         }
     }
 }
