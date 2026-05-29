@@ -21,7 +21,7 @@ public class playerconstoller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow)) //왼쪽 화살표 키를 눌렀을 때
         {
             transform.Translate(-0.3f, 0, 0);
         }
