@@ -15,7 +15,7 @@ public class playerconstoller : MonoBehaviour
     }
     public void RbuttonDown()
     {
-        transform.Translate(2, 0, 0);
+        transform.Translate(2, 0, 0); //x좌표 2만큼 이동
     }
 
     // Update is called once per frame
