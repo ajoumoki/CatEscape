@@ -25,7 +25,7 @@ public class playerconstoller : MonoBehaviour
         {
             transform.Translate(-0.3f, 0, 0); //x좌표 -0.3 이동
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow)) //오른쪽 화살표 키를 눌렀을 때
         {
             transform.Translate(0.3f, 0, 0);
         }
